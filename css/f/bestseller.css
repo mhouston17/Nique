@@ -1,0 +1,182 @@
+.bestseller{
+     padding: 50px 150px;
+    /*margin-left: 50px; */
+    align-items: center;
+}
+.bestseller .container .top-info span{
+    font-size: 55px;
+}
+.bestseller .container .top-info p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+.bestseller .nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.bestseller .nav-bar ul li{
+    margin-left: 38px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: gray;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+}
+.bestseller .nav-bar ul li:hover{
+    border-bottom: 2px solid orange; 
+    transition: ease-in-out;
+    color: black;
+}
+.bestseller .photos{
+    display: flex;
+    text-align: center;
+    height: 550px;
+    background-image: cover;
+    
+}
+.bestseller .photos img{
+    width: 40%;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px; 
+    object-fit: cover; 
+   
+}
+.bestseller .details {
+    margin-top: 20px;
+    padding: 0 15px;
+    display: flex; 
+    justify-content: space-between;
+    text-align: center;
+}
+.bestseller .details .paragraph-under-pic{
+     margin-left: 75px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 0 10px;*/
+}
+.bestseller .details .price{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 75px;
+}
+.bestseller .arrows .left-arrow,
+.bestseller .arrows .right-arrow {
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 20px;
+    bottom: 20px;
+    margin-left: 10px;
+    position: relative;
+}
+.bestseller .arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 48%;
+    
+}
+.bestseller .arrows .fa-solid{
+    top: 10px;
+    position: relative;
+
+}
+
+
+@media only screen and (max-width: 1215px)  {
+    .bestseller .container .top-info p{
+        white-space: nowrap;
+    }
+    .bestseller .arrows{
+        margin-left: 24%;
+    }
+    .bestseller .photos{
+        height: 550px;
+        background-image: cover;
+    }
+    .bestseller .photos img{
+        width: 30%;
+        background-size: cover;
+        object-fit: cover; 
+    }
+    .bestseller .details .paragraph-under-pic{
+        padding: 0 65px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1023px)  {
+    .bestseller .container .top-info p{
+        white-space: nowrap;
+    }
+    .bestseller .arrows{
+        margin-left: 24%;
+    }
+    .bestseller .photos{
+        height: 550px;
+        background-image: cover;
+    }
+    .bestseller .photos img{
+        width: 30%;
+        background-size: cover;
+        object-fit: cover; 
+    }
+    .bestseller .details .paragraph-under-pic{
+        padding: 0 20px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 767px)  {
+    .bestseller{
+        padding: 20px 20px;
+    margin-left: 20px; 
+   }
+   .bestseller .container .top-info p{
+    text-align: center;
+    padding: 20px;
+}
+   .bestseller .nav-bar ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.bestseller .nav-bar .arrows{
+    margin-left: 255px;
+    margin-bottom: 10px;
+}
+.bestseller .details .pic-details p, .price{
+    display: none;
+}
+li {
+    width: 50%;
+    box-sizing: border-box;
+    }
+    .bestseller .photos{
+        display: flex;
+        display: inline-block;
+        height: 550px;
+        background-image: cover;
+    }
+    .bestseller .photos img{
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        display: inline-block;
+        object-fit: cover; 
+    }
+    .bestseller .details{
+       display: inline-block;
+    
+    }   
+
+}  

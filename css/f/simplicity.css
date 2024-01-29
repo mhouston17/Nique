@@ -1,0 +1,192 @@
+
+.simplicity .container{
+    margin-bottom: 100px;
+    padding: 0px 60px;
+    margin-left: 150px; 
+    display: flex;
+    height: 676px;
+
+}
+.simplicity .container .left-side {
+    padding-top: 100px; 
+    width: 40%;
+    display: inline-block; 
+    justify-content: baseline; 
+ 
+}
+.simplicity .container .left-side .orange-square{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(135deg, #ffd27e 0%,#f79621 71%);
+    color: white;
+    text-align: center;
+   font-size: 2rem;
+   font-weight: 800;
+    margin-top: 50px;
+    margin-left: 122px;
+    margin-bottom: 4px;
+    position: relative;
+}
+.simplicity .container .left-side .orange-square .num{
+   margin-top: 80px;
+   left: 25px;
+   position: absolute;
+}
+.simplicity .container .left-side .line{
+    width: 150px;
+    height: 3px;
+    background: linear-gradient(135deg, #ffd27e 0%,#f79621 71%);
+    margin-bottom: 50px;
+    margin-left: 1px;
+}
+.simplicity .container .left-side .column-container {
+   display: flex;
+   
+}
+.simplicity .container .left-side .column2 span{
+    font-size: 40px;
+    font-weight: 600;
+ }
+ .simplicity .container .left-side .column1{
+    position: relative;
+    bottom: 80px;
+ }
+ .simplicity .container .left-side .column2 p{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    line-height: 25px;
+ }
+.simplicity .container .left-side .numbers{
+    list-style: none;
+    font-weight: 800;
+    margin-right: 18px;
+    text-align: center;
+}
+.simplicity .container .left-side .numbers #three{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.simplicity .container .left-side .numbers li{
+    margin-left: 70px;
+   
+}
+
+.simplicity .container .right-side {
+    width: 60%;
+    height: auto;
+    display: flex;
+}
+.simplicity .container .right-side .pic1{
+   height: 500px;
+   position: relative;
+   top: 150px;
+   left:80px;
+   align-items: center;
+}
+.simplicity .container .right-side .pic2{
+    height: 650px;
+    top: 220px;
+    right: 235px;
+    position: absolute;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 767px) {
+    .simplicity .container {
+        margin-left: 20px;
+        padding: 30px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .simplicity .container .left-side .numbers{
+        position: relative;
+       bottom: 30px;
+       
+    }
+    .simplicity .container .left-side {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .simplicity .container .right-side .pic2{
+        display: none;
+     }
+
+    .simplicity .container .left-side .orange-square {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .simplicity .container .left-side .line {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .simplicity .container .left-side .column-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .simplicity .container .right-side .pic1{
+        height: 500px;
+        position: relative;
+        top: 100px;
+        left: -80px;
+        align-items: center;
+     }
+     .simplicity .container .left-side .column2 p{
+       
+     }
+    
+}
+@media only screen and (max-width: 767px) {
+    .simplicity .container .right-side {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    .simplicity .container .right-side .pic1{
+       display: none;
+     }
+     .simplicity .container .right-side .pic2{
+        position: relative;
+        margin-left: 580px;
+      }
+      .simplicity .container .left-side .line{
+        margin-right: 128px;
+        position: relative;
+        bottom: 78px;;
+    }
+
+}
+@media only screen and (max-width: 1023px) {
+    .simplicity .container .right-side {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    .simplicity .container .right-side .pic1{
+       display: none;
+     }
+     .simplicity .container .right-side .pic2{
+        position: relative;
+        margin-left: 580px;
+      }
+
+}
+@media only screen and (max-width: 1215px) {
+    .simplicity .container .right-side {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    .simplicity .container .right-side .pic1{
+       display: none;
+     }
+     .simplicity .container .right-side .pic2{
+        position: relative;
+        margin-left: 320px;
+      }
+}
